@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+    width: 100vw;
+    padding: 0 2%;
+
+    position: absolute;
+    top: 0;
+
+    ul{
+        list-style: none;
+
+        li {
+            display: inline;
+            margin: 0 10px;
+            
+            a{
+            font-family: var(--roboto);
+            }
+        }
+    }
+}

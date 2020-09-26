@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth; background: #ddda0b}
+
+::-webkit-scrollbar {width: 0.25rem;
+    height: 0.25rem;}
+::-webkit-scrollbar-track{background: #1e1e24;}
+::-webkit-scrollbar-thumb{background: #e4284b;}
+::-webkit-scrollbar-corner{background: #1e1e24;}
+
+::selection{background: #e4284b;}
+
+:root{
+  --nero: #03103A;
+  --roboto: 'Roboto Mono', monospace;
+}
+
+a{
+  text-decoration: none;
+  color: var(--nero);}
+
+h1, h2, h3, p{
+  font-family: var(--roboto);
+  color: var(--nero);
+}
