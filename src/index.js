@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Nav from './components/navbar/Nav';
+
+import App from './App'
+//import Nav from './components/navbar/Nav';
+
 import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
+
+    <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

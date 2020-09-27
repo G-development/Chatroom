@@ -5,13 +5,11 @@ function Nav(){
     return(
         <nav>
             <ul>
-                <li><a href="#">Logo</a></li>
+                <li><a href="http://google.com">Logo</a></li>
             </ul>
             <ul>
-                <li><a href="#">Link1</a></li>
-                <li><a href="#">Link2</a></li>
-                <li><a href="#">Link3</a></li>
-                <li><a href="#">Link4</a></li>
+                <li><a href="http://google.com">Link1</a></li>
+               
             </ul>
         </nav>
     )
